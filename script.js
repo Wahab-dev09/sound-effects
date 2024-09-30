@@ -1,5 +1,5 @@
 // Load all the sound files
-const bellSound = new Audio('/sounds/bell.wav');
+const bellSound = new Audio(`${import.meta.env.BASE_URL}sounds/bell.wav`);
 const drumSound = new Audio('/sounds/drum.wav');
 const popSound = new Audio('/sounds/pop.wav');
 const clickSound = new Audio('/sounds/click.wav');
