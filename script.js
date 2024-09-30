@@ -1,5 +1,5 @@
 // Load all the sound files
-const bellSound = new Audio('/sound-effects/sounds/bell.wav');
+const bellSound = new Audio('./sounds/bell.wav');
 const drumSound = new Audio('/sound-effects/sounds/drum.wav');
 const popSound = new Audio('/sound-effects/sounds/pop.wav');
 const clickSound = new Audio('/sound-effects/sounds/click.wav');
